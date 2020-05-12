@@ -1,0 +1,30 @@
+#include<stdio.h>
+main()
+{
+//1.display the menu
+printf("pick an item : \n1. pizza\n2. buger\n3. pasta\n4. sandwich\n5. frenchfries");
+//2. read their choice
+int choice=0;
+scanf("%d",&choice);
+//3. display based on their choice
+
+switch(choice)
+{
+case 1:
+printf("fooditem-pizza\n price-rs239");
+break;
+case 2:
+printf("fooditem-burger\n price-rs129");
+break;
+case 3:
+printf("fooditem-pasta\n price-rs179");
+break;
+case 4:
+printf("fooditem-sandwich\n price-rs149");
+break;
+case 5:
+printf("fooditem-frenchfries\n price-rs99");
+break;
+default : printf("inavlid choice");
+}
+}
